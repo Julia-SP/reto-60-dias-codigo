@@ -106,9 +106,7 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 
 ## 👏 Agradecimientos
 
-- A [Matías Cukier](https://github.com/matiascukier) por la inspiración para este reto
-- A mis instructores y compañeros del bootcamp por el conocimiento compartido
-- A la comunidad de desarrolladores por crear recursos de aprendizaje accesibles
+- A [Matías Cukier](https://github.com/matiascukier) por la inspiración para este reto.
 
 ---
 
