@@ -46,10 +46,12 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 
 ## 📁 Índice de Proyectos
 
+## 📁 Índice de Proyectos
+
 | Día | Proyecto | Tecnologías | Enlace |
 |-----|----------|-------------|--------|
 | 1 | [Página de Presentación](./Dia-1/) | HTML, CSS | [Ver proyecto](./Dia-1/) |
-| 2 | Próximamente | - | - |
+| 2 | [Calculadora](./Dia-2/) | HTML, CSS, JavaScript | [Ver proyecto](./Dia-2/) |
 | 3 | Próximamente | - | - |
 | ... | ... | ... | ... |
 
