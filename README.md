@@ -50,8 +50,8 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 
 | Día | Proyecto | Tecnologías | Enlace |
 |-----|----------|-------------|--------|
-| 1 | [Página de Presentación](./Dia-1/) | HTML, CSS | [Ver proyecto](./Dia-1/) |
-| 2 | [Calculadora](./Dia-2/) | HTML, CSS, JavaScript | [Ver proyecto](./Dia-2/) |
+| 1 | [Página de Presentación](./1_presentacion/) | HTML, CSS | [Ver proyecto](./1_presentacion/) |
+| 2 | [Calculadora](./2_calculadora/) | HTML, CSS, JavaScript | [Ver proyecto](./2_calculadora/) |
 | 3 | Próximamente | - | - |
 | ... | ... | ... | ... |
 
@@ -79,7 +79,7 @@ git clone https://github.com/Julia-SP/reto-60-dias-codigo.git
 
 2. Navega a la carpeta del día que te interese:
 ```bash
-cd reto-60-dias-codigo/Dia-X
+cd reto-60-dias-codigo/nombre-reto
 ```
 
 3. Abre el archivo `index.html` en tu navegador o utiliza un servidor local si el proyecto lo requiere.
