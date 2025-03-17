@@ -50,9 +50,9 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 
 | Día | Proyecto | Tecnologías | Enlace |
 |-----|----------|-------------|--------|
-| 1 | [Página de Presentación](./1_presentacion/) | HTML, CSS | [Ver proyecto](./1_presentacion/) |
-| 2 | [Calculadora](./2_calculadora/) | HTML, CSS, JavaScript | [Ver proyecto](./2_calculadora/) |
-| 3 | Próximamente | - | - |
+| 1 | [Página de Presentación](./1_basicPresentation/) | HTML, CSS | [Ver proyecto](./1_basicPresentation/) |
+| 2 | [Calculadora](./2_basicCalculator/) | HTML, CSS, JavaScript | [Ver proyecto](./2_basicCalculator/) |
+| 3 | [Generador de colores aleatorio] (./3_randomColorGenerator/)| - | [Ver proyecto](./3_randomColorGenerator/) |
 | ... | ... | ... | ... |
 
 ## 🔍 Cómo navegar este repositorio

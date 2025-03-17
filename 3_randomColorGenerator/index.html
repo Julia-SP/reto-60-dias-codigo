@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Colores Aleatorios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Generador de Colores Aleatorios</h1>
+  <p>Haz clic en el botón para generar un color aleatorio</p>
+</header>
+
+<main>
+  <div class="container">
+      <div class="color-generator">
+          <div class="color-display">
+              <div class="color-box" id="color-box"></div>
+              <span id="color-code">#000000</span>
+              <div class="buttons">
+                  <button onclick="copyToClipboard('hex')">HEX</button>
+                  <button onclick="copyToClipboard('rgb')">RGB</button>
+                  <button onclick="copyToClipboard('hsl')">HSL</button>
+              </div>
+
+              <button class="generate-btn" onclick="getNewColor()">Generar Color</button>
+          </div>
+      </div>
+  </div>
+</main>
+    <footer>Reto 3/60 -- Julia Subiza</footer>
+    <script src="script.js"></script>
+</body>
+</html>
