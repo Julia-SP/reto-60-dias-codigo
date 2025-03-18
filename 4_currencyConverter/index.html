@@ -1,0 +1,72 @@
+<!-- Archivo index.html modificado -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO 4 CONVERSOR DE DIVISAS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <header>Conversor de divisas</header>
+            <form action="#">
+                <div class="cantidad">
+                    <p>Introduce una cifra</p>
+                    <input type="text" value="1">
+                </div>
+                <div class="desplegable">
+                    <div class="from">
+                        <p>De</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/BE/flat/64.png" alt="bandera">
+                            <select>
+                                <option value="EUR">EUR</option>
+                                <option value="USD">USD</option>
+                                <option value="GBP">GBP</option>
+                                <option value="JPY">JPY</option>
+                                <option value="AUD">AUD</option>
+                                <option value="CAD">CAD</option>
+                                <option value="CHF">CHF</option>
+                                <option value="CNY">CNY</option>
+                                <option value="SEK">SEK</option>
+                                <option value="NZD">NZD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                    <div class="to">
+                        <p>Convertir a</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="bandera">
+                            <select>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="GBP">GBP</option>
+                                <option value="JPY">JPY</option>
+                                <option value="AUD">AUD</option>
+                                <option value="CAD">CAD</option>
+                                <option value="CHF">CHF</option>
+                                <option value="CNY">CNY</option>
+                                <option value="SEK">SEK</option>
+                                <option value="NZD">NZD</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exchange-rate">Obteniendo tasa de conversion...</div>
+                <button>Ver conversión</button>
+            </form>
+        </div>
+        
+        <footer>
+            <h4>Reto 2/60 -- Julia Subiza</h4>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

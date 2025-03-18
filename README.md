@@ -44,7 +44,7 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 - Despliegue en servicios cloud
 - Optimización y mejores prácticas
 
-## 📁 Índice de Proyectos
+
 
 ## 📁 Índice de Proyectos
 
@@ -52,7 +52,7 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 |-----|----------|-------------|--------|
 | 1 | [Página de Presentación](./1_basicPresentation/) | HTML, CSS | [Ver proyecto](./1_basicPresentation/) |
 | 2 | [Calculadora](./2_basicCalculator/) | HTML, CSS, JavaScript | [Ver proyecto](./2_basicCalculator/) |
-| 3 | [Generador de colores aleatorio] (./3_randomColorGenerator/)| - | [Ver proyecto](./3_randomColorGenerator/) |
+| 3 | [Generador de colores aleatorio](./3_randomColorGenerator/)| HTML, CSS, JavaScript| [Ver proyecto](./3_randomColorGenerator/) |
 | ... | ... | ... | ... |
 
 ## 🔍 Cómo navegar este repositorio
