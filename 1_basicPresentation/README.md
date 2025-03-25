@@ -7,6 +7,10 @@
 
 Este proyecto corresponde al **Día 1** del reto de 60 días de código, donde me comprometo a crear un nuevo proyecto cada día para mejorar mis habilidades de programación. Para comenzar este desafío, he desarrollado una página de presentación que explica en qué consiste el reto completo.
 
+## 📸 Captura de Pantalla
+
+![App Screenshot](/fotos%20proyectos/1.png)
+
 ## 🎯 Objetivo del proyecto
 
 Crear una página web simple pero estéticamente agradable usando HTML y CSS que:
