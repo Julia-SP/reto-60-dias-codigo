@@ -52,11 +52,11 @@ El desafío está organizado en cuatro fases de complejidad creciente:
 
 | Día | Proyecto | Tecnologías | Enlace |
 |-----|----------|-------------|--------|
-| 1 | [Página de Presentación](./Dia-1/) | HTML, CSS | [Ver proyecto](./Dia-1/) |
-| 2 | [Calculadora](./Dia-2/) | HTML, CSS, JavaScript | [Ver proyecto](./Dia-2/) |
-| 3 | [Generador de Colores Aleatorios](./Dia-3/) | HTML, CSS, JavaScript | [Ver proyecto](./Dia-3/) |
-| 4 | [Conversor de Divisas](./Dia-4/) | HTML, CSS, JavaScript | [Ver proyecto](./Dia-4/) |
-| 5 | Próximamente | - | - |
+| 1 | [Página de Presentación](./1_basicPresentation/) | HTML, CSS | [Ver proyecto](./1_basicPresentation/) |
+| 2 | [Calculadora](./2_basicCalculator/) | HTML, CSS, JavaScript | [Ver proyecto](./2_basicCalculator/) |
+| 3 | [Generador de Colores Aleatorios](./3_randomColorGeneratorDia-3/) | HTML, CSS, JavaScript | [Ver proyecto](./3_randomColorGenerator/) |
+| 4 | [Conversor de Divisas](./4_currencyConverter/) | HTML, CSS, JavaScript | [Ver proyecto](./4_currencyConverter/) |
+| 5 | [To-do List](./5_toDoList/) | HTML, CSS, JavaScript |[Ver proyecto] (./5_toDoList/)
 | ... | ... | ... | ... |
 
 ## 🔍 Cómo navegar este repositorio
