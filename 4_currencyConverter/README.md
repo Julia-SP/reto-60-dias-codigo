@@ -10,7 +10,7 @@ Este es el cuarto proyecto del **Reto de 60 Días de Código**. Consiste en un c
 
 ## 📸 Captura de Pantalla
 
-![App Screenshot](/fotos%20proyectos/4.png)
+![App Screenshot](/fotosProyectos/4.png)
 
 ## 🛠️ Funcionalidades
 

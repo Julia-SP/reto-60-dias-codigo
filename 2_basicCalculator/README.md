@@ -10,7 +10,7 @@ Este es el segundo proyecto del **Reto de 60 Días de Código**. Consiste en una
 
 ## 📸 Captura de Pantalla
 
-![App Screenshot](/fotos%20proyectos/2.png)
+![App Screenshot](/videosProyectos/reto_2_60.mov)
 
 ## 🛠️ Funcionalidades
 

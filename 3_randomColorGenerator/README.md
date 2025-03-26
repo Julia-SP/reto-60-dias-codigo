@@ -10,7 +10,7 @@ Este es el tercer proyecto del **Reto de 60 Días de Código**. Consiste en un g
 
 ## 📸 Captura de Pantalla
 
-![App Screenshot](/fotos%20proyectos/3.png)
+![App Screenshot](/fotosProyectos/3.png)
 
 ## 🛠️ Funcionalidades
 

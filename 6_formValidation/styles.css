@@ -1,7 +1,80 @@
+
+body {
+  background: linear-gradient(to right, #dbf4ff, #fdff98);
+  font-family: 'Poppins', sans-serif;
+}
+
+#form {
+  align-items: center;
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 204, 250);
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+#form h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
+#form button:hover {
+  background-color: rgb(252, 252, 255);
+  color: rgb(41, 57, 194);
+}
+#form button:active {
+  background-color: rgb(252, 252, 255);
+  color: rgb(41, 57, 194);
+  box-shadow: 0 0 15px #ee2dff;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  margin-right:20px;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
 footer {
-    margin-top: 3rem;
-    color: #666;
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-align: center;
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
   }
