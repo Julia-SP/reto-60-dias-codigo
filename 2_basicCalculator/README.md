@@ -8,6 +8,10 @@
 
 Este es el segundo proyecto del **Reto de 60 Días de Código**. Consiste en una calculadora funcional desarrollada con HTML, CSS y JavaScript que permite realizar operaciones aritméticas básicas.
 
+## 📸 Captura de Pantalla
+
+![App Screenshot](/fotos%20proyectos/2.png)
+
 ## 🛠️ Funcionalidades
 
 - **Operaciones básicas**: suma, resta, multiplicación y división

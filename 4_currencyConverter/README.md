@@ -8,6 +8,10 @@
 
 Este es el cuarto proyecto del **Reto de 60 Días de Código**. Consiste en un conversor de divisas que permite convertir valores entre diferentes monedas internacionales utilizando tasas de cambio en tiempo real mediante una API externa.
 
+## 📸 Captura de Pantalla
+
+![App Screenshot](/fotos%20proyectos/4.png)
+
 ## 🛠️ Funcionalidades
 
 - **Conversión en tiempo real**: Obtiene tasas de cambio actualizadas desde una API externa

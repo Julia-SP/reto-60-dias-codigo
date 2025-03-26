@@ -6,6 +6,7 @@ function addTask(){
         alert('Tienes que escribir algo');
     }
     else{
+
         let li = document.createElement("li");//si no, se crea el elemento html li con el valor que se a introducido
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);

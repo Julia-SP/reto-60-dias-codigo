@@ -8,6 +8,10 @@
 
 Este es el tercer proyecto del **Reto de 60 Días de Código**. Consiste en un generador de colores aleatorios que permite visualizar y copiar códigos de color en diferentes formatos (HEX, RGB y HSL).
 
+## 📸 Captura de Pantalla
+
+![App Screenshot](/fotos%20proyectos/3.png)
+
 ## 🛠️ Funcionalidades
 
 - **Generación aleatoria de colores**: Crea un color aleatorio en formato hexadecimal
