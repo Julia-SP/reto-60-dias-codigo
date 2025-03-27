@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-        <h1>PIEDRA, PAPEL O TIJERA</h1>
-        <p>Reto 7/60 con HTML, CSS y JavaScript</p>
-    </header>
+  
+
     <main>
-       
-        <p class="instrucciones" id="instrucciones">
-            El primero en llegar a 5 puntos gana
-        </p>
+        <div class="header">
+            <h1>PIEDRA, PAPEL O TIJERA</h1>
+            <p>Reto 7/60 con HTML, CSS y JavaScript</p>
+        </div>
+
         <div class="marcador">
-            <p class="nombre nombre-jugador">Jugador</p>
-            <p class="nombre nombre-maquina">Máquina</p>
-            <br>
+            <p class="nombre nombre-jugador">JUGADORA</p>
             <p class="puntos">
                 <span id="puntos-usuario">0</span>
-                
                 <span>-</span>
                 <span id="puntos-maquina">0</span>
             </p>
+
+            <p class="nombre nombre-maquina">MÁQUINA</p>
+        
+          
         </div>
+        <p class="instrucciones" id="instrucciones">
+        <strong> -- La primera que llegue a 5 puntos gana --<strong></strong>
+        </p>
         
         <div class="elegir-arma" id="elegir-arma">
             <h2>Elige tu arma</h2>
@@ -48,8 +51,9 @@
             <p id="gana-punto">¡Has ganado!</p>
         </div>
         <button class="btn disabled" id="reiniciar">Volver a jugar</button>
+        <footer>Reto 7/60 -- Julia Subiza</footer>
     </main>
-    <footer>Reto 7/60 -- Julia Subiza</footer>
+   
     <script src="script.js"></script>
 </body>
 </html>

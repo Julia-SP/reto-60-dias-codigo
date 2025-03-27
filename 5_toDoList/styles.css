@@ -123,7 +123,6 @@ text-decoration: line-through;
 ul li.checked::before{
   align-items: center;
   background-image: url(images/check.png);
-
 }
 
 

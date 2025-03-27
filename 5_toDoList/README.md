@@ -10,7 +10,7 @@ Una aplicación web simple y elegante para gestionar tareas diarias. Este proyec
 
 ## 📸 Captura de Pantalla
 
-![App Screenshot](/fotosProyectos/5.png)
+![App Screenshot](/videosProyectos/reto_5_60.mov)
 
 
 ## ✨ Características

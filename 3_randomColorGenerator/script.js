@@ -57,10 +57,21 @@ function hexToHsl(hex) {
     return `hsl(${h}, ${s}%, ${l}%)`;
 }
 
-// Función para copiar el código de color
+// Función para copiar el código de color API
+/*La API navigator.clipboard es una API web moderna que permite copiar texto al portapapeles del sistema. 
+En este caso, se usa el método writeText() para copiar el código de color en el formato seleccionado (HEX, RGB o HSL).
+Las características principales de esta implementación son:
+
+Usa navigator.clipboard.writeText() para copiar texto
+Es asíncrono (usa una promesa con .then())
+Muestra una alerta después de copiar el texto
+Obtiene el texto a copiar desde los atributos de datos (dataset) del elemento
+
+La API Clipboard proporciona una forma sencilla de interactuar con el portapapeles del sistema de manera segura y controlada.*/ 
 function copyToClipboard(format) {
     let colorCode = document.getElementById("color-code").dataset[format];
     navigator.clipboard.writeText(colorCode).then(() => {
         alert(`Copiado: ${colorCode}`);
     });
 }
+

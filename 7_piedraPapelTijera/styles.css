@@ -4,8 +4,8 @@
   padding:0;
   box-sizing:border-box;
   font-family: "Nunito", sans-serif;
+  
 }
-
 
 
 h2{
@@ -27,7 +27,7 @@ h2{
 }
 
 body{
-    background-color: #f0f0f0;
+    background-color: #41ab7b;
     
 }
 
@@ -45,7 +45,9 @@ main{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 35rem;
-    margin: 20px auto;
+    margin-top: 50%;
+    margin: 40px auto;
+   
 
 }
 
@@ -158,5 +160,5 @@ main{
 footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #fff01f;
+    color: #ffb11f;
 }
