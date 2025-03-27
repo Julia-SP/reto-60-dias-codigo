@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+h2{
+    padding-bottom: 8px;
+}
+  
+.header{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    background-color: #303030;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+
+}
+
+body{
+    background-color: #f0f0f0;
+    
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 35rem;
+    margin: 20px auto;
+
+}
+
+.marcador{
+    display: flex;
+    gap:1rem;
+    background-color: rgb(62, 62, 62);
+    padding: 1rem;
+    border: 0px solid var(--clr-blanco);
+    border-radius: 8px;
+    font-weight: 800;
+    margin-top: 5px;
+    color:#ffffff
+}
+.nombre {
+    color: #ffd620;
+}
+
+
+.instrucciones {
+    padding-top: 8px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Sección de elección de arma */
+.elegir-arma {
+    text-align: center;
+    
+    padding: 20px;
+   
+   
+    width: 300px;
+    margin: 20px auto;
+}
+
+.elegir-arma h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.arma {
+    font-size: 30px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arma:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.arma:active {
+    background-color: #bbb;
+    transform: scale(1);
+}
+
+/* Mensaje de resultado */
+.mensaje {
+    
+    padding: 15px;
+    border-radius: 10px;
+   
+    width: 300px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.disabled {
+    display: none;
+}
+
+/* Botón de reinicio */
+.btn {
+    background-color: #f856c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #9b1787;
+}
+
+.btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff01f;
+}

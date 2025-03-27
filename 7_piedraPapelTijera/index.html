@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 7 Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>PIEDRA, PAPEL O TIJERA</h1>
+        <p>Reto 7/60 con HTML, CSS y JavaScript</p>
+    </header>
+    <main>
+       
+        <p class="instrucciones" id="instrucciones">
+            El primero en llegar a 5 puntos gana
+        </p>
+        <div class="marcador">
+            <p class="nombre nombre-jugador">Jugador</p>
+            <p class="nombre nombre-maquina">Máquina</p>
+            <br>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                
+                <span>-</span>
+                <span id="puntos-maquina">0</span>
+            </p>
+        </div>
+        
+        <div class="elegir-arma" id="elegir-arma">
+            <h2>Elige tu arma</h2>
+            <div class="armas">
+                <button class="arma" id="piedra">✊</button>
+                <button class="arma" id="papel">📄</button>
+                <button class="arma" id="tijera">✂️</button>
+            </div>
+        </div>
+
+        <div class="mensaje disabled" id="mensaje">
+            <p>
+                Usaste <span class="eleccion" id="eleccion-usuario"></span>
+                <br>
+                y la máquina usó <span class="eleccion" id="eleccion-maquina"></span>
+                <br>
+                así que...
+            </p>
+            <p id="gana-punto">¡Has ganado!</p>
+        </div>
+        <button class="btn disabled" id="reiniciar">Volver a jugar</button>
+    </main>
+    <footer>Reto 7/60 -- Julia Subiza</footer>
+    <script src="script.js"></script>
+</body>
+</html>
