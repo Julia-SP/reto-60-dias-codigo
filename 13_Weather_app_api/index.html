@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima app</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Buscar ciudad...">
+                <button id="searchBtn">🔍</button>
+            </div>
+            
+            <div class="weather-info" id="weatherInfo">
+                <div class="main-info">
+                    <h1 id="cityName">Ciudad</h1>
+                    <div class="temp-box">
+                        <span id="temperature">25</span>
+                        <span class="unit">°C</span>
+                    </div>
+                    <p id="weatherDesc">Soleado</p>
+                </div>
+                
+                <div class="details">
+                    <div class="detail-item">
+                        <span class="label">Humedad</span>
+                        <span id="humidity"> -- %</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Viento</span>
+                        <span id="windSpeed"> -- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Sensación</span>
+                        <span id="feelsLike"> --°C</span>
+                    </div>
+                </div>
+                
+                <div class="weather-icon">
+                    <img id="weatherIcon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Icono del clima">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <footer>Reto 13/60 -- Julia Subiza</footer> -->
+<script src="script.js"></script>
+</html>

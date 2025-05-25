@@ -72,5 +72,5 @@ Para los siguientes días del reto, seguiré avanzando en complejidad:
 - A [Matías Cukier](https://github.com/matiascukier) por la inspiración para este reto de 60 días
 
 ---
-
+📅 Este proyecto corresponde a la **Fase 1 (Días 1–15): Proyectos básicos con HTML, CSS y JavaScript**  
 _Creado con ❤️ por [Julia Subiza](https://github.com/Julia-SP)_

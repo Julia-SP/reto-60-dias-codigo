@@ -83,5 +83,5 @@ Durante el desarrollo de este proyecto, pude aplicar y reforzar los siguientes c
 - [Exchange Rate API](https://open.er-api.com)
 
 ---
-
+📅 Este proyecto corresponde a la **Fase 1 (Días 1–15): Proyectos básicos con HTML, CSS y JavaScript**  
 _Proyecto creado como parte del Reto 60 Días de Código por [Julia Subiza](https://github.com/Julia-SP) - 2025_

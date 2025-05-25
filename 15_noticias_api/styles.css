@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+footer {
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+ text-align: center;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#reto{ 
+  color:#7c3aed42;
+  margin-top:12px;
+}
+p{
+
+text-align: center;
+color:#5d47a0ce
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  background: linear-gradient(135deg, #f5d0fe 0%, #c7d2fe 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 2rem;
+  min-width: 600px;
+  background: #fff0f6;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px #a78bfa55;
+}
+
+h1 {
+  text-align: center;
+  color: #7c3aed; /* morado intenso */
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.7rem;
+  border: 1.5px solid #c4b5fd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f3e8ff;
+  color: #6d28d9;
+  outline-color: #a78bfa;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(90deg, #f472b6 0%, #a78bfa 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #f472b655;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #a78bfa 0%, #f472b6 100%);
+  box-shadow: 0 4px 16px #a78bfa77;
+}
+
+#news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.news-card {
+  display: flex;
+  gap: 1rem;
+  background: #ede9fe;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 12px #a78bfa33;
+  align-items: flex-start;
+
+}
+
+.news-card img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #fbcfe8;
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-content h2 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+  color: #a21caf; /* rosa/morado fuerte */
+}
+
+.news-content p {
+  margin: 0.2rem 0 0.2rem 0;
+  color: #6d28d9;
+  text-align: left;
+}
+
+.news-content span {
+  font-size: 0.9rem;
+  color: #a78bfa;
+}

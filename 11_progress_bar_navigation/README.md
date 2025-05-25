@@ -66,5 +66,6 @@ Este proyecto me permitió profundizar en:
 
 ---
 
+📅 Este proyecto corresponde a la **Fase 1 (Días 1–15): Proyectos básicos con HTML, CSS y JavaScript**
 _Creado con ❤️ por [Julia Subiza](https://github.com/Julia-SP) - 2025_
 

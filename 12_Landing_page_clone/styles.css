@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+footer {
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+:root {
+  --primary: #ffa6ff;
+  --primary-dark: #3730a3;
+  --bg: #fde2ff;
+  --white: #fff0f0;
+  --text: #1e293b;
+  --gray: #909193;
+  --content-width: 960px;
+  --frame-width: 1400px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  max-width: var(--frame-width);
+  margin: 0 auto;
+  background: var(--white);
+  min-height: 100vh;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+}
+
+header {
+  background: var(--white);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar {
+  width: var(--content-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+  letter-spacing: 1px;
+  font-family: "Send Flowers", cursive;
+  font-weight: 800;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-links li a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links li a:hover {
+  color: var(--primary);
+}
+
+main {
+  width: var(--content-width);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5rem 0 2.5rem 0;
+  min-height: 420px;
+}
+
+.hero-content {
+  max-width: 480px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color:rgb(242, 58, 13);
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--gray);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 32px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.hero-image img {
+  width: 340px;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(79,70,229,0.07);
+}
+
+.features {
+  margin: 2.5rem 0;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 2rem;
+  color: #ffa6ff;
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.feature-card {
+  background: var(--bg);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2.2rem 1.5rem;
+  width: 30%;
+  text-align: center;
+}
+
+.feature-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+
+.feature-card p {
+  color: var(--gray);
+}
+
+.about {
+  background: #f1f5f9;
+  border-radius: 12px;
+  margin: 2.5rem 0;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: var(--primary-dark);
+  margin-bottom: 1.2rem;
+}
+
+.cta {
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+footer {
+  width: var(--content-width);
+  margin: 0 auto;
+  padding: 1.2rem 0;
+  text-align: center;
+  color: var(--gray);
+  font-size: 1rem;
+  border-top: 1px solid #e5e7eb;
+  background: var(--white);
+}
+.send-flowers-regular {
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

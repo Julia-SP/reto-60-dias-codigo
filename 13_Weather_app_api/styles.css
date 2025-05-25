@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+footer {
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --bg: #ecf0f1;
+  --text: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffe565, #ffe837);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+
+.container {
+  width: 800px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid var(--secondary);
+  border-radius: 12px;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+#searchBtn {
+  background: var(--secondary);
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+
+#searchBtn:hover {
+  transform: scale(1.05);
+}
+
+.weather-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.main-info {
+  text-align: left;
+}
+
+.temp-box {
+  display: flex;
+  align-items: baseline;
+  margin: 20px 0;
+}
+
+#temperature {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.unit {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: var(--secondary);
+}
+
+#weatherDesc {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(52, 152, 219, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.label {
+  color: #7f8c8d;
+}
+
+.weather-icon img {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+}
+
+/* Mensaje de error */
+#weatherInfo::before {
+  content: attr(data-error);
+  color: #e74c3c;
+  display: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+#weatherInfo.error::before {
+  display: block;
+}

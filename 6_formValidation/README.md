@@ -105,5 +105,5 @@ cd reto-60-dias-codigo/Dia-4
 Este proyecto está bajo la Licencia MIT.
 
 ---
-
+📅 Este proyecto corresponde a la **Fase 1 (Días 1–15): Proyectos básicos con HTML, CSS y JavaScript**  
 Creado con ❤️ durante el **Reto 60 Días de Código** por [Julia Subiza](https://github.com/Julia-SP)
