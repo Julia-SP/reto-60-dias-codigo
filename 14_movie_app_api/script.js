@@ -1,4 +1,4 @@
-const apiKey = "a05b484c"; 
+const apiKey = "tu_key"; 
 
 const form = document.getElementById("movie-form");
 const input = document.getElementById("movie-input");
